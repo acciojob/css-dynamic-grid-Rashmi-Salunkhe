@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: 10px;
+}
+.grid-item {
+	display: flex;
+	align-items: center; /* Center text vertically */
+    justify-content: center;
+	background-color: lightgray;
+	height: 150px;
+	width: 200px;
+	font-size: 40px;
+	border-radius: 5px;
+}
